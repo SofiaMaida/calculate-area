@@ -8,6 +8,8 @@ public class Circle extends Figure {
 
     private Double radio;
 
+    public Circle() {}
+
     public Circle(Double radio) {
         this.radio = radio;
     }
@@ -27,6 +29,7 @@ public class Circle extends Figure {
 
     @Override
     public Double calculateArea() {
+        // area = ( Math.PI * Math.pow(radio, radio));
         area = ( Math.PI * radio * radio);
         return area;
     }

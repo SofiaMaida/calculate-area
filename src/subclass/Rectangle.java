@@ -9,8 +9,7 @@ public class Rectangle extends Figure {
     private Double heigth;
     private Double width;
 
-    public Rectangle() {
-    }
+    public Rectangle() {}
 
     public Rectangle(Double heigth, Double width) {
         this.heigth = heigth;

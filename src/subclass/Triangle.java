@@ -9,8 +9,7 @@ public class Triangle extends Figure {
     private Double heigth;
     private Double width;
 
-    public Triangle() {
-    }
+    public Triangle() {}
 
     public Triangle(Double heigth, Double with) {
         this.heigth = heigth;
